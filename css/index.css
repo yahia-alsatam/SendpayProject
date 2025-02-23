@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgba(255, 255, 255, 1);
+}
+/* start header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header .logoandtext {
+  display: flex;
+  gap: 10px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header nav ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header .button {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+header .button a {
+  text-decoration: none;
+  color: black;
+}
+header .buttonone {
+  background-color: white;
+  font-weight: bold;
+  width: 106px;
+  cursor: pointer;
+  height: 40px;
+}
+header .buttontwo {
+  background: rgba(108, 99, 255, 1);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 106px;
+  height: 40px;
+}
+/* end header */
+/* start main */
+main .sectionone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 98px;
+}
+main .sectionone .divone h1 {
+  font-size: 44px;
+}
+main .sectionone .divone p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+main .sectionone .divone .buttoninmain {
+  display: flex;
+  gap: 20px;
+}
+.buttoninmain .but-main {
+  width: 146px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttoninmain .button-main1 {
+  background-color: rgba(108, 99, 255, 1);
+  border: none;
+  color: white;
+}
+.buttoninmain .button-main2 {
+  background-color: white;
+  color: black;
+}
+main .twosection {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .twosection .punderh1 {
+  text-align: center;
+  font-size: 25px;
+}
+main .twosection .h1-start {
+  font-size: 44px;
+}
+main .twosection .picture {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+main .twosection .picture h2 {
+  margin-top: 56px;
+}
+main .threesection {
+  position: relative;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 580px;
+}
+main .threesection .raduis {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.textThreesection h3 {
+  font-weight: 600;
+}
+.textThreesection p {
+  margin-top: 48px;
+  font-weight: 400;
+}
+.textThreesection a {
+  color: rgba(108, 99, 255, 1);
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* end main */
+/* start footer */
+footer {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/imgfile/FOOTER/Group\ 13.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .h1Mainfooter {
+  text-align: center;
+  font-size: 44px;
+}
+
+footer .pMainfooter {
+  font-size: 18px;
+  color: rgba(183, 179, 179, 1);
+  text-align: center;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 39px;
+  gap: 106px;
+}
+footer .grid .squre {
+  display: flex;
+  align-items: center;
+  width: 510px;
+}
+footer .grid .squre .article p {
+  color: rgba(183, 179, 179, 1);
+}
+
+footer .grid .squre3 {
+  gap: 20px;
+}
+footer .grid .squre4 {
+  padding-left: 10px;
+  gap: 15px;
+}
+/* end footer */
+/* end task */
+/* thank you for watch my task */
